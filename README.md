@@ -1,5 +1,7 @@
 # CyberForge v5.1 — Authorized Security Assessment Suite
 
+Developed by MR. ERROR FK
+
 CyberForge v5.1 is a modular, safe-by-design terminal toolkit for authorized defensive security assessment on Termux and Kali Linux.
 
 ## 34 Modules
@@ -45,13 +47,16 @@ CyberForge v5.1 is a modular, safe-by-design terminal toolkit for authorized def
 ## Install
 
 ### Termux
-```bash
+--- 
+git clone https://github.com/ahmadfurqan26/CyberForgekit.git
+cd CyberForgeKit
+ls
 bash install-termux.sh
-./cyberforge
+python3 cyberforge.py
 ```
 
 For Nmap:
-```bash
+```
 pkg install nmap
 ```
 
@@ -64,12 +69,20 @@ sudo apt install nmap
 
 ## Scope
 
-Copy the example scope and add only domains/IPs/CIDRs you are authorized to assess:
+Copy the example scope and add only domains/IPs/CIDRs you are authorized to assess
 
-```bash
+
+# Scope Setup
 cp scope.txt.example scope.txt
 nano scope.txt
-```
+Example:
+(example.com
+api.example.com)
+
+# View the reports: 
+
+Open a other page. And type cat and then put the report json address. as like
+cat reports/20260813_190534_malware_analysis.json
 
 Examples:
 ```text
