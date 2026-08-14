@@ -49,24 +49,22 @@ CyberForge v5.1 is a modular, safe-by-design terminal toolkit for authorized def
 ### Termux
 --- 
 git clone https://github.com/ahmadfurqan26/CyberForgekit.git
+
 cd CyberForgeKit
+
 ls
+
 bash install-termux.sh
+
 python3 cyberforge.py
 ```
 
-For Nmap:
-```
-pkg install nmap
-```
 
-### Kali/Debian
-```bash
-bash install.sh
-sudo apt install nmap
-./cyberforge
 ```
+ For nmap :  pkg install nmap
 
+```
+```
 ## Scope
 
 Copy the example scope and add only domains/IPs/CIDRs you are authorized to assess
