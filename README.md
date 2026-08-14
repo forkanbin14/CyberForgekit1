@@ -44,10 +44,11 @@ CyberForge v5.1 is a modular, safe-by-design terminal toolkit for authorized def
 33. HTTP Method Security Audit — OPTIONS/Allow policy review
 34. Security Risk Scoring Engine — aggregates findings into score, grade and severity counts
 
-## Install
 
-### Termux
---- 
+
+### Termux Installation
+
+```
 git clone https://github.com/ahmadfurqan26/CyberForgekit.git
 
 cd CyberForgeKit
@@ -58,11 +59,14 @@ bash install-termux.sh
 
 python3 cyberforge.py
 
+```
 
 
+ For installing nmap :  
 
- For nmap :  pkg install nmap
-
+ ```
+ pkg install nmap
+```
 
 
 ## Scope
@@ -72,10 +76,11 @@ Copy the example scope and add only domains/IPs/CIDRs you are authorized to asse
 
 # Scope Setup
 
+```
 cp scope.txt.example scope.txt
 
 nano scope.txt
-
+```
 Example:
 (example.com
 api.example.com)
@@ -84,13 +89,9 @@ api.example.com)
 
 Open a other page. And type cat and then put the report json address. as like
 
+```
 cat reports/20260813_190534_malware_analysis.json
 
-Examples:
-```text
-example.com
-*.example.com
-192.168.1.0/24
 ```
 
 Network actions require an explicit scope. Keep scope limited to assets you own or have permission to assess.
