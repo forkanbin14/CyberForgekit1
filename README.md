@@ -71,8 +71,11 @@ Copy the example scope and add only domains/IPs/CIDRs you are authorized to asse
 
 
 # Scope Setup
+
 cp scope.txt.example scope.txt
+
 nano scope.txt
+
 Example:
 (example.com
 api.example.com)
@@ -80,6 +83,7 @@ api.example.com)
 # View the reports: 
 
 Open a other page. And type cat and then put the report json address. as like
+
 cat reports/20260813_190534_malware_analysis.json
 
 Examples:
