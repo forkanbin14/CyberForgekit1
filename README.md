@@ -57,14 +57,14 @@ ls
 bash install-termux.sh
 
 python3 cyberforge.py
-```
 
 
-```
+
+
  For nmap :  pkg install nmap
 
-```
-```
+
+
 ## Scope
 
 Copy the example scope and add only domains/IPs/CIDRs you are authorized to assess
