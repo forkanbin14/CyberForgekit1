@@ -119,8 +119,8 @@ def clear():
 
 def banner():
     print("\033[1;36m╔════════════════════════════════════════════════════════════╗")
-    print("║\033[1;97m                    CYBERFORGE v6.2                         \033[1;36m║")
-    print("║\033[1;33m             AUTHORIZED SECURITY ASSESSMENT              \033[1;36m║")
+    print("║\033[1;97m            CYBERFORGE v2 By Furkan                      \033[1;36m║")
+    print("║\033[1;33m            AUTHORIZED SECURITY ASSESSMENT               \033[1;36m║")
     print("╚════════════════════════════════════════════════════════════╝\033[0m")
     print("\033[0;90m Safe-by-design: network actions require explicit scope.\033[0m")
 
