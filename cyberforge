@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+if [ -x "$BASE/.venv/bin/python" ]; then exec "$BASE/.venv/bin/python" "$BASE/cyberforge.py" "$@"; fi
+exec python3 "$BASE/cyberforge.py" "$@"
